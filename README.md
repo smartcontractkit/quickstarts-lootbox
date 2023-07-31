@@ -40,9 +40,9 @@ The lootbox contract uses [Chainlink VRF](https://docs.chain.link/docs/get-a-ran
 Clone the repo and install all dependencies.
 
 ```bash
-git clone git@github.com:hackbg/chainlink-solutions-lootbox.git
+git clone https://github.com/smartcontractkit/quickstarts-lootbox.git
 
-cd chainlink-solutions-lootbox
+cd quickstarts-lootbox
 
 npm install
 ```
