@@ -631,7 +631,7 @@ describe('Lootbox', function () {
       ).to.be.revertedWithCustomError(lootbox, 'NotEligible')
     })
 
-    it('shour revert if proof is invalid', async function () {
+    it('should revert if proof is invalid', async function () {
       await expect(
         lootbox
           .connect(whitelistedUser)
